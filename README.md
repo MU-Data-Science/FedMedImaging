@@ -35,10 +35,10 @@ Dataset should be disturbuted into 10 nodes. 1 of the nodes should have all test
 -----------------------------------
 STARTING THE EXPERIMENT
 -----------------------------------
-- For server : models/server.py
+- For server : server.py
 		
 		poetry run python3 server.py -i 'model name' -cl 'number of classes'
-- For client : models/client.py
+- For client : client.py
 
 		poetry run python3 client.py -i 'model name' -cl 'number of classes'
 - Optimization strategy, local epochs, batch size and num of rounds are defined in the server.py
