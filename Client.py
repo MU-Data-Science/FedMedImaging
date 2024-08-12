@@ -171,7 +171,7 @@ def main() -> None:
 def load_partition(idx: int):
 
     assert idx in range(10)
-    path = '' # enter path here
+    path = '' # enter dataset path here
     datagen = ImageDataGenerator(validation_split=0.1, rotation_range=90, horizontal_flip=True, vertical_flip=True,
                                  width_shift_range=0.2, height_shift_range=0.2, fill_mode="nearest")
     train_it = datagen.flow_from_directory(path + '/train', class_mode='binary', batch_size=64)
