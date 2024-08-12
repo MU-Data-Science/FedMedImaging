@@ -3,9 +3,9 @@ requires = ["poetry-core>=1.4.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "advanced-tensorflow"
+name = "Flower"
 version = "0.1.0"
-description = "Advanced Flower/TensorFlow Example"
+description = "FLower"
 authors = ["The Flower Authors <hello@flower.ai>"]
 
 [tool.poetry.dependencies]
