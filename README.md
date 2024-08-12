@@ -11,7 +11,7 @@ FOR EVERY NODE
 	pip3 install poetry
 You need to disconnect and then connect again or adjust the root directory shown in the promt after this step. Otherwise, poetry cant be used
 
-clone this repository
+Clone this repository
 
  	poetry install
 	poetry shell
