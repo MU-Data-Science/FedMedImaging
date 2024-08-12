@@ -29,7 +29,7 @@ dataset
 	-		class2
 
 Images shoud be reduced to 256x256 for default. In case of using different size, client.py should be changed accordingly
-Dataset should be disturbuted into 10 nodes. 1 of the nodes should have all test set and should be treated as the main testing node
+Dataset should be disturbuted into 10 nodes in default. One of the nodes should have all test set and should be treated as the main testing node
 
 
 -----------------------------------
