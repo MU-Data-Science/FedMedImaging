@@ -45,25 +45,6 @@ STARTING THE EXPERIMENT
 - Optimization strategy, local epochs, batch size and num of rounds are defined in the server.py
 - Dataset adress is defined in the client.py
 
------------------------------------
-USEFUL TOOLS
------------------------------------
-# SCREEN
 
-Create screen
-	
-	screen -S 
-List screens	
-
-	screen -ls 
-Open running screen
-
-	screen -r "screen name" 
-Create screen with logfile
- 
-	screen -L -Logfile log_filename 
-Stop all screens	
-	
-	pkill screen  
 
 
