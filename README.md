@@ -48,7 +48,7 @@ STARTING THE EXPERIMENT
 
 		poetry run python3 client.py -i 'model name' -cl 'number of classes'
 - Optimization strategy, local epochs, batch size and num of rounds are defined in the server.py
-- Dataset adree is defined in the client.py
+- Dataset adress is defined in the client.py
 
 -----------------------------------
 USEFUL TOOLS
