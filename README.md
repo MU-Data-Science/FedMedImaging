@@ -9,7 +9,6 @@ FOR EVERY NODE
 	sudo apt install python3-pip -y
 	pip3 install --upgrade pip
 	pip3 install poetry
-You need to disconnect and then connect again or adjust the root directory shown in the promt after this step. Otherwise, poetry cant be used
 
 Clone this repository
 
