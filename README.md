@@ -1,5 +1,36 @@
 # FedMedImaging
 
+## Environment Setup
+### Nodes Configuration:
+
+*	The experiment environment consists of 10 machines, referred to as nodes.
+*	One node is designated as the server.
+*	The remaining nine nodes are designated as clients.
+  
+### Data Distribution:
+
+*	Prepare the dataset to be used for the experiment.
+*	Distribute the dataset across the client nodes. Each client should receive its own subset of data, which will be used for local training.
+*	Verify that the data is correctly loaded and accessible.
+
+### Network Configuration:
+
+*	Ensure that all nodes (both the server and clients) are connected to the same network.
+*	Configure the network to allow communication between all nodes. This may involve setting up IP addresses, firewalls, and ensuring that the necessary ports are open for communication.
+
+### Software Installation:
+
+*	Ensure that all nodes have the same version of the required software and dependencies.
+*	Make sure that the libraries used across all nodes are compatible and do not clash. This may require checking for version conflicts
+ or dependency issues.
+
+### Experiment Execution
+
+*	Set the federated learning strategy, number of epochs, and other relevant parameters manually in the server and client code. These settings will not be dynamically adjusted during the experiment and must be set correctly before starting.
+*	Start the server process on the designated server node.
+*	On each client node, start the client process.
+
+
 
 ## INSTALLATION 
 -----------------------------------
