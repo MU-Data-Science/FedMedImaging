@@ -1,0 +1,81 @@
+----------------------------------
+Fedavg
+--------------------------------
+
+import flwr as fl
+
+strategy = fl.server.strategy.FedAvg(
+    fraction_fit=0.1,
+    fraction_eval=0.1,
+    min_fit_clients=10,
+    min_eval_clients=10,
+    min_available_clients=10,
+)
+
+fl.server.start_server(strategy=strategy, config={"num_rounds": 10})
+
+
+----------------------------------
+Fedyogi
+----------------------------------
+
+import flwr as fl
+from flwr.server.strategy import FedYogi
+
+strategy = FedYogi(
+    fraction_fit=0.1,
+    fraction_eval=0.1,
+    min_fit_clients=10,
+    min_eval_clients=10,
+    min_available_clients=10,
+    eta=1e-2,         # Learning rate
+    tau=1e-3,         # Controls the adaptivity
+    beta1=0.9,        # Exponential decay rate for the first moment
+    beta2=0.999,      # Exponential decay rate for the second moment
+)
+
+fl.server.start_server(strategy=strategy, config={"num_rounds": 10})
+
+----------------------------------
+FedAdagrad
+----------------------------------
+
+import flwr as fl
+from flwr.server.strategy import FedAdagrad
+
+strategy = FedAdagrad(
+    fraction_fit=0.1,
+    fraction_eval=0.1,
+    min_fit_clients=10,
+    min_eval_clients=10,
+    min_available_clients=10,
+    eta=1e-2,         # Learning rate
+    tau=1e-3,         # Controls the adaptivity
+)
+
+fl.server.start_server(strategy=strategy, config={"num_rounds": 10})
+
+----------------------------------
+FedAdam
+----------------------------------
+
+import flwr as fl
+from flwr.server.strategy import FedAdam
+
+strategy = FedAdam(
+    fraction_fit=0.1,
+    fraction_eval=0.1,
+    min_fit_clients=10,
+    min_eval_clients=10,
+    min_available_clients=10,
+    eta=1e-2,         # Learning rate
+    beta1=0.9,        # Exponential decay rate for the first moment
+    beta2=0.999,      # Exponential decay rate for the second moment
+    tau=1e-3,         # Controls the adaptivity
+)
+
+fl.server.start_server(strategy=strategy, config={"num_rounds": 10})
+
+
+
+
