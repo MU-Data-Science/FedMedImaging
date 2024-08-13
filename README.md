@@ -26,6 +26,7 @@
 ### Experiment Execution
 
 *	Set the federated learning strategy, number of epochs, and other relevant parameters manually in the server and client code. These settings will not be dynamically adjusted during the experiment and must be set correctly before starting.
+*	Strategy templates are on Strategy.txt in the repository. It can be directly changed with the strategy in the server.py
 *	Start the server process on the designated server node.
 *	On each client node, start the client process.
 
