@@ -21,8 +21,7 @@
 ### Software Installation:
 
 *	Ensure that all nodes have the same version of the required software and dependencies.
-*	Make sure that the libraries used across all nodes are compatible and do not clash. This may require checking for version conflicts
- or dependency issues.
+*	Make sure that the libraries used across all nodes are compatible and do not clash.
 
 ### Experiment Execution
 
