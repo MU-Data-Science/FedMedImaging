@@ -20,7 +20,7 @@
 
 ### Software Installation:
 
-*	Ensure that all nodes have the same version of the required software and dependencies.
+*	Ensure that all nodes have the same version of the required libraries and dependencies.
 *	Make sure that the libraries used across all nodes are compatible and do not clash.
 
 ### Experiment Execution
