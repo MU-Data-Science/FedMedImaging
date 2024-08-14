@@ -48,7 +48,8 @@ Clone this repository
 	poetry shell
 	pip3 install pillow scipy
 	certificate.conf: change IP.2 adress with local server adress
- 	Change the server_address="10.10.1.1:5000",with your server adress in client.py and server.py
+ 	Change the server_address="10.10.1.1:5000",with your server ip adress in client.py and server.py
+  You can find your servers ip adress with the command ifconfig run from your server terminal
 
 -----------------------------------
 DATASET STRUCTURE
