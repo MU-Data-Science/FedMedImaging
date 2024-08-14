@@ -82,6 +82,7 @@ Dataset should be disturbuted into 10 nodes in default. One of the nodes should 
 STARTING THE EXPERIMENT
 -----------------------------------
 - Optimization strategy, local epochs, batch size and num of rounds are defined in the server.py
+- Strategies hyperparameters may need to be adjusted according to model and dataset used.
 - Dataset adress is defined in the client.py
 
 - For server : server.py
