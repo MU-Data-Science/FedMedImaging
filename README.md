@@ -45,6 +45,8 @@ Run the commands below from terminal
 
 Clone this repository
 
+ 	"""	git clone https://github.com/MU-Data-Science/FedMedImaging.git	"""
+
 Run the commands below from terminal
 
  	"""	cd FedMedImaging		"""
