@@ -79,13 +79,17 @@ STARTING THE EXPERIMENT
 - For server : server.py
 		
 		"""	poetry run python3 server.py -i 'model name' -cl 'number of classes'	"""
-  *	for example: """ poetry run python3 server.py -i EfficientNetB0 -cl 4 """
+  *	for example:
+  
+    	""" poetry run python3 server.py -i EfficientNetB0 -cl 4 """
     
 - For client : client.py
 
 		"""	poetry run python3 client.py -i 'model name' -cl 'number of classes'	"""
-   *	for example: """ poetry run python3 client.py -i EfficientNetB0 -cl 4 """
-     
+   *	for example:   
+  	
+    		""" poetry run python3 client.py -i EfficientNetB0 -cl 4 """
+
 - Optimization strategy, local epochs, batch size and num of rounds are defined in the server.py
 - Dataset adress is defined in the client.py
 
