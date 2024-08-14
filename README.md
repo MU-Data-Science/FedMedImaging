@@ -53,9 +53,9 @@ Clone this repository
 Run the commands below from terminal
 
  	"""	cd FedMedImaging		"""
- 	"""	poetry install			"""
 	"""	poetry shell			"""
-	"""	pip3 install pillow scipy	"""
+ 	"""	pip3 install pillow scipy	"""
+  	"""	poetry install			"""
  
 certificate.conf: change IP.2 adress with local server ip adress for all client.py and server.py
 
