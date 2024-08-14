@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "flowerfed"
+name = "FedMedImaging"
 version = "0.1.0"
-description = ""
+description = "Federated learning with different models and strategies"
 authors = [""]
 
 
