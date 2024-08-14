@@ -38,17 +38,17 @@ FOR EVERY NODE
 -----------------------------------
 Run the codes below
 
-	"""	sudo apt update && sudo apt upgrade -y		"""
+	"""	sudo apt update && sudo apt upgrade -y	"""
 	"""	sudo apt install python3-pip -y		"""
-	"""	pip3 install --upgrade pip	"""
-	"""	pip3 install poetry	"""
+	"""	pip3 install --upgrade pip		"""
+	"""	pip3 install poetry			"""
 
 Clone this repository
 Run the codes below
 
- 	"""	cd FedMedImaging	"""
- 	"""	poetry install	"""
-	"""	poetry shell	"""
+ 	"""	cd FedMedImaging		"""
+ 	"""	poetry install			"""
+	"""	poetry shell			"""
 	"""	pip3 install pillow scipy	"""
  
 certificate.conf: change IP.2 adress with local server ip adress for all client.py and server.py
