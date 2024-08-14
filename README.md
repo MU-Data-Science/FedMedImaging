@@ -54,6 +54,8 @@ Run the commands below from terminal
 
  	"""	cd FedMedImaging		"""
 	"""	poetry shell			"""
+	"""	pip install -r requirements.txt	"""
+
  	"""	pip3 install pillow scipy	"""
   	"""	poetry install			"""
  
