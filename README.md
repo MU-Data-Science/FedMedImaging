@@ -36,6 +36,7 @@
 -----------------------------------
 FOR EVERY NODE
 -----------------------------------
+Codes are written between triple quotes (""" ... """) don't copy the quotes
 Run the commands below from terminal
 
 	"""	sudo apt update && sudo apt upgrade -y	"""
