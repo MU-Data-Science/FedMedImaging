@@ -36,7 +36,7 @@
 -----------------------------------
 FOR EVERY NODE
 -----------------------------------
-Run the codes below
+Run the commands below from terminal
 
 	"""	sudo apt update && sudo apt upgrade -y	"""
 	"""	sudo apt install python3-pip -y		"""
@@ -45,7 +45,7 @@ Run the codes below
 
 Clone this repository
 
-Run the codes below
+Run the commands below from terminal
 
  	"""	cd FedMedImaging		"""
  	"""	poetry install			"""
