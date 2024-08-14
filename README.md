@@ -39,29 +39,32 @@
 -----------------------------------
 FOR EVERY NODE
 -----------------------------------
-Codes are written between triple quotes (""" ... """) don't copy the quotes
 Run the commands below from terminal
 
-	"""	sudo apt update && sudo apt upgrade -y	"""
-	"""	sudo apt install python3-pip -y		"""
-	"""	pip3 install --upgrade pip		"""
-	"""	pip3 install poetry			"""
+```	
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3-pip -y
+pip3 install --upgrade pip
+pip3 install poetry
+```
 
 At this point you may need to reset the node or update the root directory according to promt given to register the poetry. If no warnings are given proceed.
 
 Clone this repository
 
- 	"""	git clone https://github.com/MU-Data-Science/FedMedImaging.git	"""
+```
+git clone https://github.com/MU-Data-Science/FedMedImaging.git
+```
 
 Run the commands below from terminal
+```
+cd FedMedImaging		
+poetry shell			
+pip install -r requirements.txt
 
- 	"""	cd FedMedImaging		"""
-	"""	poetry shell			"""
-	"""	pip install -r requirements.txt	"""
-
- 	"""	pip3 install pillow scipy	"""
-  	"""	poetry install			"""
- 
+pip3 install pillow scipy
+poetry install
+```
 certificate.conf: change IP.2 adress with local server ip adress for all client.py and server.py
 
 Change the server_address="10.10.1.1:5000",with your server ip adress in client.py and server.py
@@ -91,19 +94,22 @@ STARTING THE EXPERIMENT
 - Dataset adress is defined in the client.py
 
 - For server : server.py
-		
-		"""	poetry run python3 server.py -i 'model name' -cl 'number of classes'	"""
+```		
+poetry run python3 server.py -i 'model name' -cl 'number of classes'
+```
   *	for example:
-  
-    	""" poetry run python3 server.py -i EfficientNetB0 -cl 4 """
-    
+
+```
+poetry run python3 server.py -i EfficientNetB0 -cl 4
+```
 - For client : client.py
-
-		"""	poetry run python3 client.py -i 'model name' -cl 'number of classes'	"""
+```
+poetry run python3 client.py -i 'model name' -cl 'number of classes'
+```
    *	for example:   
-  	
-    		""" poetry run python3 client.py -i EfficientNetB0 -cl 4 """
-
+```  	
+poetry run python3 client.py -i EfficientNetB0 -cl 4
+```
 
 
 
