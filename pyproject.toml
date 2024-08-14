@@ -7,13 +7,14 @@ authors = [""]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-tensorflow = "^2.0"
+tensorflow = "^2.1"
 flwr = "^1.0"
 h5py = "^3.0"
 numpy = "^1.18.5"
 keras = "^2.4.3"
 pathlib = "*"
-scipy = "^1.14"
+scipy = "^1.0"
+
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"
 
