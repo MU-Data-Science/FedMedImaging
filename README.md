@@ -43,6 +43,7 @@ FOR EVERY NODE
 
 Clone this repository
 
+ 	cd FedMedImaging
  	poetry install
 	poetry shell
 	pip3 install pillow scipy
