@@ -44,6 +44,8 @@ Run the commands below from terminal
 	"""	pip3 install --upgrade pip		"""
 	"""	pip3 install poetry			"""
 
+At this point you may need to reset the node or update the root directory according to promt given to register the poetry. If no warnings are given proceed.
+
 Clone this repository
 
  	"""	git clone https://github.com/MU-Data-Science/FedMedImaging.git	"""
@@ -56,7 +58,9 @@ Run the commands below from terminal
 	"""	pip3 install pillow scipy	"""
  
 certificate.conf: change IP.2 adress with local server ip adress for all client.py and server.py
+
 Change the server_address="10.10.1.1:5000",with your server ip adress in client.py and server.py
+
 You can find your servers ip adress with the command ifconfig run from your server terminal
 
 -----------------------------------
