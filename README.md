@@ -1,5 +1,8 @@
 # FedMedImaging
 
+## Publications
+1. Abdulkadir Korkmaz, Ahmad Alhonainy, and Praveen Rao - An Evaluation of Federated Learning Techniques for Secure and Privacy-Preserving Machine Learning on Medical Datasets. In the 51st IEEE Annual Applied Imagery Pattern Recognition (AIPR) Workshop, 7 pages, Washington D.C., 2022. [[PDF]](https://drive.google.com/file/d/1MxLYkyeOGBo-q8MaM6MndN1NUUxyvDFK/view)
+
 ## Environment Setup
 ### Nodes Configuration:
 
