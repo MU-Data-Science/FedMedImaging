@@ -47,9 +47,10 @@ Clone this repository
  	poetry install
 	poetry shell
 	pip3 install pillow scipy
-	certificate.conf: change IP.2 adress with local server adress
- 	Change the server_address="10.10.1.1:5000",with your server ip adress in client.py and server.py
-  You can find your servers ip adress with the command ifconfig run from your server terminal
+ 
+certificate.conf: change IP.2 adress with local server ip adress for all client.py and server.py
+Change the server_address="10.10.1.1:5000",with your server ip adress in client.py and server.py
+You can find your servers ip adress with the command ifconfig run from your server terminal
 
 -----------------------------------
 DATASET STRUCTURE
@@ -72,12 +73,12 @@ STARTING THE EXPERIMENT
 - For server : server.py
 		
 		poetry run python3 server.py -i 'model name' -cl 'number of classes'
-  *	for example: poetry run python3 server.py -i EfficientNetB0 -cl 4
+  *	for example: """ poetry run python3 server.py -i EfficientNetB0 -cl 4 """
     
 - For client : client.py
 
 		poetry run python3 client.py -i 'model name' -cl 'number of classes'
-   *	for example: poetry run python3 client.py -i EfficientNetB0 -cl 4
+   *	for example: """ poetry run python3 client.py -i EfficientNetB0 -cl 4 """
      
 - Optimization strategy, local epochs, batch size and num of rounds are defined in the server.py
 - Dataset adress is defined in the client.py
