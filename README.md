@@ -36,17 +36,20 @@
 -----------------------------------
 FOR EVERY NODE
 -----------------------------------
-	sudo apt update && sudo apt upgrade -y
-	sudo apt install python3-pip -y
-	pip3 install --upgrade pip
-	pip3 install poetry
+Run the codes below
+
+	"""	sudo apt update && sudo apt upgrade -y		"""
+	"""	sudo apt install python3-pip -y		"""
+	"""	pip3 install --upgrade pip	"""
+	"""	pip3 install poetry	"""
 
 Clone this repository
+Run the codes below
 
- 	cd FedMedImaging
- 	poetry install
-	poetry shell
-	pip3 install pillow scipy
+ 	"""	cd FedMedImaging	"""
+ 	"""	poetry install	"""
+	"""	poetry shell	"""
+	"""	pip3 install pillow scipy	"""
  
 certificate.conf: change IP.2 adress with local server ip adress for all client.py and server.py
 Change the server_address="10.10.1.1:5000",with your server ip adress in client.py and server.py
