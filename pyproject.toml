@@ -5,7 +5,7 @@ description = ""
 
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.8"
 tensorflow = "^2.0"
 flwr = "^1.0"
 numpy = "^1.18.5"
