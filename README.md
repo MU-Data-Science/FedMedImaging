@@ -76,6 +76,9 @@ Dataset should be disturbuted into 10 nodes in default. One of the nodes should 
 -----------------------------------
 STARTING THE EXPERIMENT
 -----------------------------------
+- Optimization strategy, local epochs, batch size and num of rounds are defined in the server.py
+- Dataset adress is defined in the client.py
+
 - For server : server.py
 		
 		"""	poetry run python3 server.py -i 'model name' -cl 'number of classes'	"""
@@ -90,8 +93,6 @@ STARTING THE EXPERIMENT
   	
     		""" poetry run python3 client.py -i EfficientNetB0 -cl 4 """
 
-- Optimization strategy, local epochs, batch size and num of rounds are defined in the server.py
-- Dataset adress is defined in the client.py
 
 
 
